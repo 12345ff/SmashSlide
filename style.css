@@ -42,3 +42,38 @@
     height: 25px;
     z-index: 10;
 }
+
+.inputButton {
+    position: absolute;
+    top: 0;
+    width: 10%;
+    height: 100%;
+    z-index: 101;
+    opacity: 0.3;
+    border: none;
+}
+.inputButton:active {
+    opacity: 0.75;
+}
+#inputButton_left {
+    left: 0px;
+    background-color: #ff4242;
+    
+}
+#inputButton_right {
+    right: 0px;
+    background-color: #42ffff;
+}
+
+#inputButton_exit {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 20%;
+    height: 10%;
+    background-image: url("https://12345ff.github.io/Image/crashSlide/lineLight42.png");
+    background-size: 100% 100%;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    z-index: 101;
+}
