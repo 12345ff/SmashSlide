@@ -24,6 +24,32 @@
     height: 500px;
     border: 1px solid black;
 }
+#sizeAlert {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    z-index: 200;
+}
+#sizeAlert > p {
+    font-size: 50px;
+    color: black;
+    width: 100%;
+    text-align: center;
+}
+@media screen and (orientation: portrait) {
+    #sizeAlert {
+        display: block;
+    }
+}
+
+@media screen and (orientation: landscape) {
+    #sizeAlert {
+        display: none;
+    }
+}
 
 .debugDisplay {
     position: absolute;
